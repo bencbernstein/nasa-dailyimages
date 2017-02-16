@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B54B9B711E5646C600C83970 /* PlanetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B54B9B701E5646C600C83970 /* PlanetViewController.swift */; };
+		B58F53EE1E5619AF00B74B6F /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58F53ED1E5619AF00B74B6F /* Planet.swift */; };
+		B58F53F01E56260F00B74B6F /* PlanetCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58F53EF1E56260F00B74B6F /* PlanetCell.swift */; };
+		B5D3EC8A1E53DEFA00EE513D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D3EC891E53DEFA00EE513D /* AppDelegate.swift */; };
+		B5D3EC8C1E53DEFA00EE513D /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D3EC8B1E53DEFA00EE513D /* MainViewController.swift */; };
+		B5D3EC8F1E53DEFA00EE513D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5D3EC8D1E53DEFA00EE513D /* Main.storyboard */; };
+		B5D3EC911E53DEFA00EE513D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5D3EC901E53DEFA00EE513D /* Assets.xcassets */; };
+		B5D3EC941E53DEFA00EE513D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5D3EC921E53DEFA00EE513D /* LaunchScreen.storyboard */; };
+		B5D3EC9C1E53E0EF00EE513D /* NASA.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D3EC9B1E53E0EF00EE513D /* NASA.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B54B9B701E5646C600C83970 /* PlanetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlanetViewController.swift; path = ../PlanetViewController.swift; sourceTree = "<group>"; };
+		B58F53ED1E5619AF00B74B6F /* Planet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Planet.swift; path = ../Planet.swift; sourceTree = "<group>"; };
+		B58F53EF1E56260F00B74B6F /* PlanetCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PlanetCell.swift; path = ../PlanetCell.swift; sourceTree = "<group>"; };
+		B5D3EC861E53DEFA00EE513D /* Predict The Sky.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Predict The Sky.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5D3EC891E53DEFA00EE513D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B5D3EC8B1E53DEFA00EE513D /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B5D3EC8E1E53DEFA00EE513D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B5D3EC901E53DEFA00EE513D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B5D3EC931E53DEFA00EE513D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B5D3EC951E53DEFA00EE513D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5D3EC9B1E53E0EF00EE513D /* NASA.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NASA.swift; path = ../NASA.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B5D3EC831E53DEFA00EE513D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B5D3EC7D1E53DEFA00EE513D = {
+			isa = PBXGroup;
+			children = (
+				B5D3EC881E53DEFA00EE513D /* Predict The Sky */,
+				B5D3EC871E53DEFA00EE513D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B5D3EC871E53DEFA00EE513D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B5D3EC861E53DEFA00EE513D /* Predict The Sky.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B5D3EC881E53DEFA00EE513D /* Predict The Sky */ = {
+			isa = PBXGroup;
+			children = (
+				B58F53EF1E56260F00B74B6F /* PlanetCell.swift */,
+				B5D3EC9B1E53E0EF00EE513D /* NASA.swift */,
+				B54B9B701E5646C600C83970 /* PlanetViewController.swift */,
+				B58F53ED1E5619AF00B74B6F /* Planet.swift */,
+				B5D3EC891E53DEFA00EE513D /* AppDelegate.swift */,
+				B5D3EC8B1E53DEFA00EE513D /* MainViewController.swift */,
+				B5D3EC8D1E53DEFA00EE513D /* Main.storyboard */,
+				B5D3EC901E53DEFA00EE513D /* Assets.xcassets */,
+				B5D3EC921E53DEFA00EE513D /* LaunchScreen.storyboard */,
+				B5D3EC951E53DEFA00EE513D /* Info.plist */,
+			);
+			path = "Predict The Sky";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B5D3EC851E53DEFA00EE513D /* Predict The Sky */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B5D3EC981E53DEFA00EE513D /* Build configuration list for PBXNativeTarget "Predict The Sky" */;
+			buildPhases = (
+				B5D3EC821E53DEFA00EE513D /* Sources */,
+				B5D3EC831E53DEFA00EE513D /* Frameworks */,
+				B5D3EC841E53DEFA00EE513D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Predict The Sky";
+			productName = "Predict The Sky";
+			productReference = B5D3EC861E53DEFA00EE513D /* Predict The Sky.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B5D3EC7E1E53DEFA00EE513D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Burning Flowers";
+				TargetAttributes = {
+					B5D3EC851E53DEFA00EE513D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = R2Y4F8J6CR;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B5D3EC811E53DEFA00EE513D /* Build configuration list for PBXProject "Predict The Sky" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B5D3EC7D1E53DEFA00EE513D;
+			productRefGroup = B5D3EC871E53DEFA00EE513D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B5D3EC851E53DEFA00EE513D /* Predict The Sky */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B5D3EC841E53DEFA00EE513D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D3EC941E53DEFA00EE513D /* LaunchScreen.storyboard in Resources */,
+				B5D3EC911E53DEFA00EE513D /* Assets.xcassets in Resources */,
+				B5D3EC8F1E53DEFA00EE513D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B5D3EC821E53DEFA00EE513D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5D3EC9C1E53E0EF00EE513D /* NASA.swift in Sources */,
+				B58F53F01E56260F00B74B6F /* PlanetCell.swift in Sources */,
+				B54B9B711E5646C600C83970 /* PlanetViewController.swift in Sources */,
+				B5D3EC8C1E53DEFA00EE513D /* MainViewController.swift in Sources */,
+				B5D3EC8A1E53DEFA00EE513D /* AppDelegate.swift in Sources */,
+				B58F53EE1E5619AF00B74B6F /* Planet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B5D3EC8D1E53DEFA00EE513D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5D3EC8E1E53DEFA00EE513D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B5D3EC921E53DEFA00EE513D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B5D3EC931E53DEFA00EE513D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B5D3EC961E53DEFA00EE513D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B5D3EC971E53DEFA00EE513D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B5D3EC991E53DEFA00EE513D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R2Y4F8J6CR;
+				INFOPLIST_FILE = "Predict The Sky/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.burningflowers.oneminuteworkout.Predict-The-Sky";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B5D3EC9A1E53DEFA00EE513D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R2Y4F8J6CR;
+				INFOPLIST_FILE = "Predict The Sky/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.burningflowers.oneminuteworkout.Predict-The-Sky";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B5D3EC811E53DEFA00EE513D /* Build configuration list for PBXProject "Predict The Sky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D3EC961E53DEFA00EE513D /* Debug */,
+				B5D3EC971E53DEFA00EE513D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B5D3EC981E53DEFA00EE513D /* Build configuration list for PBXNativeTarget "Predict The Sky" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5D3EC991E53DEFA00EE513D /* Debug */,
+				B5D3EC9A1E53DEFA00EE513D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B5D3EC7E1E53DEFA00EE513D /* Project object */;
+}
